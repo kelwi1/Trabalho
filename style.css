@@ -1,0 +1,43 @@
+
+
+#h001 {
+    background-color: rgb(5, 85, 58);
+    text-decoration: underline;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+    width: 90vh;
+    max-height: 60%;
+}
+p {
+    font-size:95%;
+    font-family: helvetica;
+    color: white;
+    display:flex;
+    align-items: center;
+}
+h1 {
+    font-family: helvetica;
+    text-decoration: underline;
+    color: white;
+}
+body {
+    background-color: black;
+}
+
+h1, img, p {
+    display:block;
+}
+
+.parte1, .parte2, .parte3, .parte4, .parte5, .parte6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding:20px;
+}
